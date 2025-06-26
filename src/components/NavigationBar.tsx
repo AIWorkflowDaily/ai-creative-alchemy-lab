@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { Mail, ShoppingCart, BookOpen } from "lucide-react";
 
 const NavigationBar = () => {
   return (
@@ -15,11 +14,13 @@ const NavigationBar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#vault" className="text-slate-600 hover:text-blue-600 transition-colors">Tool Vault</a>
-            <a href="#newsletter" className="text-slate-600 hover:text-blue-600 transition-colors">Newsletter</a>
-            <a href="#templates" className="text-slate-600 hover:text-blue-600 transition-colors">Templates</a>
+            <a href="https://www.notion.so/AI-Tool-Vault" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Tool Vault</a>
+            <a href="https://aiworkflowdaily.substack.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Newsletter</a>
+            <a href="https://gumroad.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Templates</a>
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              Get Started
+              <a href="https://aiworkflowdaily.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-white">
+                Get Started
+              </a>
             </Button>
           </div>
         </div>

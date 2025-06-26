@@ -22,20 +22,20 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-slate-400">
-              <li><a href="#" className="hover:text-white transition-colors">AI Tool Vault</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Templates</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Guides</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Newsletter</a></li>
+              <li><a href="https://www.notion.so/AI-Tool-Vault" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">AI Tool Vault</a></li>
+              <li><a href="https://gumroad.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Templates</a></li>
+              <li><a href="https://www.notion.so/AI-for-Creators-Guide" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Guides</a></li>
+              <li><a href="https://aiworkflowdaily.substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Newsletter</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Community</h4>
             <ul className="space-y-2 text-slate-400">
-              <li><a href="#" className="hover:text-white transition-colors">Discord</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://discord.gg/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a></li>
+              <li><a href="https://twitter.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</a></li>
+              <li><a href="https://linkedin.com/company/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a></li>
+              <li><a href="https://github.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
             </ul>
           </div>
           
@@ -43,8 +43,10 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Stay Updated</h4>
             <p className="text-slate-400 mb-4">Get the latest AI workflows and tools.</p>
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 w-full">
-              <Mail className="mr-2 w-4 h-4" />
-              Subscribe
+              <a href="https://aiworkflowdaily.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="flex items-center text-white">
+                <Mail className="mr-2 w-4 h-4" />
+                Subscribe
+              </a>
             </Button>
           </div>
         </div>
@@ -55,13 +57,19 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
-              <Twitter className="w-4 h-4" />
+              <a href="https://twitter.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer">
+                <Twitter className="w-4 h-4" />
+              </a>
             </Button>
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
-              <Github className="w-4 h-4" />
+              <a href="https://github.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer">
+                <Github className="w-4 h-4" />
+              </a>
             </Button>
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
-              <Linkedin className="w-4 h-4" />
+              <a href="https://linkedin.com/company/aiworkflowdaily" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>

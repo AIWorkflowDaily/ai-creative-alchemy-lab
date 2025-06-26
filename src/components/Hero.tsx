@@ -25,12 +25,16 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
           <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8 py-4 group">
-            🚀 Get the Free AI Stack
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <a href="https://aiworkflowdaily.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="flex items-center text-white">
+              🚀 Get the Free AI Stack
+              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
           <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover-scale">
-            <Zap className="mr-2 w-5 h-5" />
-            Browse AI Templates
+            <a href="https://gumroad.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="flex items-center">
+              <Zap className="mr-2 w-5 h-5" />
+              Browse AI Templates
+            </a>
           </Button>
         </div>
       </div>

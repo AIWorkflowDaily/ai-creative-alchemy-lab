@@ -9,25 +9,29 @@ const ExploreSection = () => {
       icon: Wrench,
       title: "🛠️ AI Tool Vault",
       description: "Comprehensive collection of AI tools and platforms",
-      link: "View the Vault"
+      link: "View the Vault",
+      url: "https://www.notion.so/AI-Tool-Vault"
     },
     {
       icon: Mail,
       title: "📩 Weekly Newsletter",
       description: "Latest AI workflows and productivity tips",
-      link: "Subscribe"
+      link: "Subscribe",
+      url: "https://aiworkflowdaily.substack.com"
     },
     {
       icon: ShoppingCart,
       title: "🛒 Gumroad Store",
       description: "Premium templates and resources",
-      link: "Shop Templates"
+      link: "Shop Templates",
+      url: "https://gumroad.com/aiworkflowdaily"
     },
     {
       icon: BookOpen,
       title: "📘 AI for Creators Guide",
       description: "Complete guide to AI-powered creativity",
-      link: "Read Now"
+      link: "Read Now",
+      url: "https://www.notion.so/AI-for-Creators-Guide"
     }
   ];
 
@@ -52,8 +56,10 @@ const ExploreSection = () => {
                   <h3 className="font-semibold text-xl mb-2 text-slate-800">{item.title}</h3>
                   <p className="text-slate-600 mb-4 leading-relaxed">{item.description}</p>
                   <Button variant="ghost" className="text-blue-600 hover:text-blue-700 p-0 h-auto group/btn">
-                    {item.link}
-                    <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="flex items-center">
+                      {item.link}
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </a>
                   </Button>
                 </div>
               </div>

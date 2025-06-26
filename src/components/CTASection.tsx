@@ -9,19 +9,22 @@ const CTASection = () => {
       icon: Mail,
       label: "🚀 Get the Free AI Stack",
       description: "Essential tools and workflows",
-      variant: "primary" as const
+      variant: "primary" as const,
+      link: "https://aiworkflowdaily.substack.com/subscribe"
     },
     {
       icon: ShoppingCart,
       label: "🛒 Browse AI Templates",
       description: "Ready-to-use templates",
-      variant: "secondary" as const
+      variant: "secondary" as const,
+      link: "https://gumroad.com/aiworkflowdaily"
     },
     {
       icon: FileText,
       label: "📁 Notion Vault",
       description: "Complete resource library",
-      variant: "secondary" as const
+      variant: "secondary" as const,
+      link: "https://www.notion.so/AI-Tool-Vault"
     }
   ];
 
@@ -50,7 +53,9 @@ const CTASection = () => {
                   }
                   variant={item.variant === 'primary' ? 'default' : 'outline'}
                 >
-                  {item.variant === 'primary' ? 'Get Free Access' : 'Explore Now'}
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="w-full">
+                    {item.variant === 'primary' ? 'Get Free Access' : 'Explore Now'}
+                  </a>
                 </Button>
               </div>
             </Card>
