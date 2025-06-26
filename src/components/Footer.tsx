@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Mail, Twitter, Github, Linkedin } from "lucide-react";
+import { Mail, Youtube, Music } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -57,12 +57,12 @@ const Footer = () => {
           <div className="flex space-x-4">
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
               <a href="https://www.youtube.com/@AIWorkflowDaily" target="_blank" rel="noopener noreferrer">
-                <YouTube className="w-4 h-4" />
+                <Youtube className="w-4 h-4" />
               </a>
             </Button>
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
               <a href="https://www.tiktok.com/@aiworkflowdaily" target="_blank" rel="noopener noreferrer">
-                <TikTok className="w-4 h-4" />
+                <Music className="w-4 h-4" />
               </a>
             </Button>
           </div>
