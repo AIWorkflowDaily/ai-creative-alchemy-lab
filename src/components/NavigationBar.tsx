@@ -14,11 +14,11 @@ const NavigationBar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-6">
-            <a href="https://www.notion.so/AI-Tool-Vault" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Tool Vault</a>
-            <a href="https://aiworkflowdaily.substack.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Newsletter</a>
-            <a href="https://gumroad.com/aiworkflowdaily" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Templates</a>
+            <a href="https://mailchi.mp/3aa20d05c424/ai-workflow-daily" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Tool Vault</a>
+            <a href="https://mailchi.mp/3aa20d05c424/ai-workflow-daily" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Newsletter</a>
+            <a href="https://mailchi.mp/3aa20d05c424/ai-workflow-daily" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">Templates</a>
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              <a href="https://aiworkflowdaily.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-white">
+              <a href="https://mailchi.mp/3aa20d05c424/ai-workflow-daily" target="_blank" rel="noopener noreferrer" className="text-white">
                 Get Started
               </a>
             </Button>
