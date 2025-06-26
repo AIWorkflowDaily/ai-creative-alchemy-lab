@@ -10,21 +10,21 @@ const CTASection = () => {
       label: "🚀 Get the Free AI Stack",
       description: "Essential tools and workflows",
       variant: "primary" as const,
-      link: "https://aiworkflowdaily.substack.com/subscribe"
+      link: "https://mailchi.mp/3aa20d05c424/ai-workflow-daily"
     },
     {
       icon: ShoppingCart,
       label: "🛒 Browse AI Templates",
       description: "Ready-to-use templates",
       variant: "secondary" as const,
-      link: "https://gumroad.com/aiworkflowdaily"
+      link: "https://workflowlab.gumroad.com/l/AIWorkflowDaily28"
     },
     {
       icon: FileText,
-      label: "📁 Notion Vault",
+      label: "📁 Free Notion Vault",
       description: "Complete resource library",
       variant: "secondary" as const,
-      link: "https://www.notion.so/AI-Tool-Vault"
+      link: "https://alert-brian-aa5.notion.site/AI-Workflow-Daily-Free-Vault-21e277cd38a78074a4f6f86dda6c7daa?source=copy_link"
     }
   ];
 
