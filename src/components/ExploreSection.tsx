@@ -9,29 +9,29 @@ const ExploreSection = () => {
       icon: Wrench,
       title: "🛠️ AI Tool Vault",
       description: "Comprehensive collection of AI tools and platforms",
-      link: "View the Vault",
-      url: "https://www.notion.so/AI-Tool-Vault"
+      link: "Join Waiting List",
+      url: "https://mailchi.mp/3aa20d05c424/ai-workflow-daily"
     },
     {
       icon: Mail,
       title: "📩 Weekly Newsletter",
       description: "Latest AI workflows and productivity tips",
       link: "Subscribe",
-      url: "https://aiworkflowdaily.substack.com"
+      url: "https://mailchi.mp/3aa20d05c424/ai-workflow-daily"
     },
     {
       icon: ShoppingCart,
       title: "🛒 Gumroad Store",
       description: "Premium templates and resources",
       link: "Shop Templates",
-      url: "https://gumroad.com/aiworkflowdaily"
+      url: "https://aiworkflowdaily.gumroad.com/"
     },
     {
       icon: BookOpen,
       title: "📘 AI for Creators Guide",
       description: "Complete guide to AI-powered creativity",
-      link: "Read Now",
-      url: "https://www.notion.so/AI-for-Creators-Guide"
+      link: "Join Waiting List",
+      url: "https://mailchi.mp/3aa20d05c424/ai-workflow-daily"
     }
   ];
 
