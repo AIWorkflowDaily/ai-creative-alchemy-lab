@@ -25,7 +25,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
           <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8 py-4 group">
-            <a href="https://aiworkflowdaily.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="flex items-center text-white">
+            <a href="https://alert-brian-aa5.notion.site/AI-Workflow-Daily-Free-Vault-21e277cd38a78074a4f6f86dda6c7daa?source=copy_link" target="_blank" rel="noopener noreferrer" className="flex items-center text-white">
               🚀 Get the Free AI Stack
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
