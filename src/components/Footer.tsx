@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Mail, Youtube, Music } from "lucide-react";
 
@@ -9,9 +8,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AI</span>
-              </div>
+              <img 
+                src="/placeholder.svg" 
+                alt="AI Workflow Daily Logo" 
+                className="w-8 h-8 rounded-lg object-cover"
+              />
               <span className="font-bold text-xl">AI Workflow Daily</span>
             </div>
             <p className="text-slate-400">
@@ -58,11 +59,6 @@ const Footer = () => {
             <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
               <a href="https://www.youtube.com/@AIWorkflowDaily" target="_blank" rel="noopener noreferrer">
                 <Youtube className="w-4 h-4" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
-              <a href="https://www.tiktok.com/@aiworkflowdaily" target="_blank" rel="noopener noreferrer">
-                <Music className="w-4 h-4" />
               </a>
             </Button>
           </div>
