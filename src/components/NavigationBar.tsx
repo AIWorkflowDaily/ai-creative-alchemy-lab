@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/placeholder.svg" 
+              src="/lovable-uploads/8cdee727-74fa-4d9b-9b5f-3445ce19a78d.png" 
               alt="AI Workflow Daily Logo" 
               className="w-8 h-8 rounded-lg object-cover"
             />
