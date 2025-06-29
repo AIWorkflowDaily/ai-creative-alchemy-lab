@@ -1,19 +1,21 @@
 
 import NavigationBar from "@/components/NavigationBar";
-import Hero from "@/components/Hero";
-import CTASection from "@/components/CTASection";
-import ExploreSection from "@/components/ExploreSection";
-import TestimonialSection from "@/components/TestimonialSection";
+import HeroSection from "@/components/HeroSection";
+import PromptVaultSection from "@/components/PromptVaultSection";
+import BonusWorkflowSection from "@/components/BonusWorkflowSection";
+import BlogTeaserSection from "@/components/BlogTeaserSection";
+import SmartBanner from "@/components/SmartBanner";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-slate-900">
+      <SmartBanner />
       <NavigationBar />
-      <Hero />
-      <CTASection />
-      <ExploreSection />
-      <TestimonialSection />
+      <HeroSection />
+      <PromptVaultSection />
+      <BonusWorkflowSection />
+      <BlogTeaserSection />
       <Footer />
     </div>
   );
