@@ -209,12 +209,12 @@ const Index = () => {
                   <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
                   <div className="mc-field-group">
                     <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-                    <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required value="" />
+                    <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required />
                     <span id="mce-EMAIL-HELPERTEXT" className="helper_text">Email Address Required</span>
                   </div>
                   <div className="mc-field-group">
                     <label htmlFor="mce-NAME">Name (Optional)</label>
-                    <input type="text" name="NAME" className="text" id="mce-NAME" value="" />
+                    <input type="text" name="NAME" className="text" id="mce-NAME" />
                   </div>
                   <div className="mc-field-group input-group">
                     <strong>What are you most interested in? (Optional)</strong>
@@ -237,7 +237,7 @@ const Index = () => {
                   </div>
                   <div className="mc-field-group">
                     <label htmlFor="mce-MMERGE5">If Other, please specify:</label>
-                    <input type="text" name="MMERGE5" className="text" id="mce-MMERGE5" value="" />
+                    <input type="text" name="MMERGE5" className="text" id="mce-MMERGE5" />
                   </div>
                   <div id="mce-responses" className="clear foot">
                     <div className="response" id="mce-error-response" style={{display: 'none'}}></div>
