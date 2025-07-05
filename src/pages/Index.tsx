@@ -127,25 +127,43 @@ const Index = () => {
                   padding: 0 !important;
                   display: grid !important;
                   grid-template-columns: 1fr 1fr !important;
-                  gap: 8px !important;
+                  gap: 12px !important;
+                  margin: 0 !important;
                 }
                 #mc_embed_signup .input-group li {
                   margin: 0 !important;
+                  display: flex !important;
+                  align-items: center !important;
+                  gap: 8px !important;
+                  padding: 8px !important;
+                  background: rgba(30, 41, 59, 0.5) !important;
+                  border-radius: 6px !important;
+                  border: 1px solid #374151 !important;
+                  transition: all 0.2s !important;
+                }
+                #mc_embed_signup .input-group li:hover {
+                  background: rgba(30, 41, 59, 0.8) !important;
+                  border-color: #6366f1 !important;
                 }
                 #mc_embed_signup .input-group label {
                   color: #94a3b8 !important;
                   font-size: 13px !important;
-                  margin-left: 6px !important;
+                  margin: 0 !important;
                   display: inline !important;
+                  cursor: pointer !important;
+                  flex: 1 !important;
                 }
                 #mc_embed_signup .input-group strong {
                   color: #cbd5e1 !important;
                   font-weight: 500 !important;
                   display: block !important;
                   margin-bottom: 12px !important;
+                  text-align: left !important;
                 }
                 #mc_embed_signup input[type="radio"] {
                   accent-color: #6366f1 !important;
+                  margin: 0 !important;
+                  flex-shrink: 0 !important;
                 }
                 #mc_embed_signup .button {
                   background: linear-gradient(to right, #6366f1, #4f46e5) !important;
